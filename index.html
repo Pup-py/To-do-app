@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>`To do Thing</title>
+  </head>
+  <body>
+    <form>
+    <h1><label for="textareas">Note App</label></h1>
+    <textarea
+      id="txtarea"
+      rows="5"
+      placeholder="Enter your note here..."
+      autofocus
+      maxlength="28"
+      required
+    ></textarea>
+    <br />
+    <button type="button" value="SUBMIT" class="add" onclick="lists()">SUBMIT</button>
+    <br>
+    <button type="reset" value="RESET" class="reset" onclick="del()">RESET</button>
+    </form>
+    <div id="adduserdata"></div>
+    <script>
+      function lists() {
+        var text = document.getElementById("txtarea").value;
+        var showarea = document.getElementById("adduserdata");
+        if (text === "") {
+          return text;
+        }
+        return showarea.innerHTML += "<p class='box' rows ='5'>" + text + "</p>",document.querySelector('txtarea').value = '';
+      }
+      function del() {
+        var showarea = document.getElementById("adduserdata");
+        return showarea.innerHTML = "";
+      }
+    </script>
+    <footer>
+      Made by &copy;
+      <a href="https://www.facebook.com/howto.alone" target="_blank"
+        >dutsakorn</a
+      >
+      2022 &infin;
+    </footer>
+  </body>
+</html>

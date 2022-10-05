@@ -1,0 +1,93 @@
+body {
+    background-color: #2c3333;
+    font-family: fantasy;
+  }
+  
+  h1 {
+    margin-left: 870px;
+    margin-top: 5%;
+    color: #ffffff;
+    font-size: 50px;
+  }
+  
+  /* textareadecoration */
+  textarea {
+    border-radius: 5px;
+    width: 30%;
+    height: 205px;
+    resize: none;
+    margin-left: 650px;
+    font-size: 35px;
+    background-color: #E7F6F2;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-color: rgb(4, 255, 159);
+    border-style: dotted;
+    border-left: 10px;
+  }
+  #textarea::placeholder {
+    font-size: 35px;
+  }
+  
+  /* buttondecoration */
+  
+  button.add {
+    background-color: #395B64;
+    border-color: #395B64;
+    margin-top: 8px;
+    font-family: Georgia, serif; 
+    font-weight: normal;  
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+    margin-left: 675px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.329);
+    text-align: center;
+  }
+  button.reset {
+    background-color: #643c39;
+    margin-top: 8px;
+    border-color: #643c39;
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+    margin-left: 675px;margin-left: 675px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.329);
+  }
+  /* footer */
+  footer {
+    background-color: #575757;
+    width: 100%;
+    color: #ffffff;
+    width: 100%;
+    height: 20px;
+    margin-top: 350px;
+    text-align: center;
+  }
+  p.box {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background-color: #E7F6F2;
+    margin-left: 713px;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+  }
